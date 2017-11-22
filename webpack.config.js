@@ -11,14 +11,14 @@ module.exports = {
       {
         test: /\.jsx?/,
         include:  __dirname  + '/client/src',
-        loader: 'babel-loader',
+        loader : 'babel-loader',
         query: {
-          presets : ['react', 'es2015']
+          presets: ['react', 'es2015']
         }
       }
     ]
   },
   resolve:  {
-    extensions : ['.js', '.jsx']
+    extensions: ['.js', '.jsx']
   }
 }
